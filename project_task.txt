@@ -1,0 +1,84 @@
+
+Program: BSDS
+Subject: Data Mining
+Semester Project (Complex Computing Problem)
+Marks: 30
+
+
+---
+
+Title: Data Clustering Using Genetic Algorithms
+
+Data clustering is a fundamental task in Data Mining that aims to group similar data objects into meaningful clusters without prior class labels. It plays a vital role in a wide range of real-world applications, including customer segmentation, pattern discovery, image analysis, bioinformatics, and decision support systems. Various Machine Learning approaches have been proposed for clustering tasks; however, evolutionary computation techniques such as Genetic Algorithms (GAs) provide powerful optimization capabilities for discovering high-quality clustering solutions.
+
+In this semester project, students are required to apply Genetic Algorithms for data clustering on benchmark datasets. The objective is to explore how evolutionary optimization can be used to determine optimal cluster assignments by minimizing intra-cluster distance and maximizing inter-cluster separation.
+
+Students must design and implement a Genetic Algorithm for data clustering using the Python programming language, following the Genetic Algorithm pseudocode provided in Figure #1. The implementation should include all major GA components, such as chromosome representation, population initialization, fitness evaluation, selection, crossover, mutation, and termination criteria.
+
+
+---
+
+Function: GA-Clustering
+
+Input: AlgorithmParameters, K_clusters, Data_count
+Output: SbestClustering
+
+Initialize Population;
+While ~StopCondition() do
+    Select parents;
+    Crossover;
+    Mutate;
+    Replace Population;
+    Get Best Solution;
+End
+Return SbestClustering
+
+
+---
+
+The clustering algorithm must be evaluated using the following benchmark datasets:
+
+1. Iris Dataset
+
+
+2. Mall Customer Segmentation Dataset
+
+
+3. make_blobs Dataset (synthetic dataset)
+
+
+---
+
+For each dataset, students are expected to: [20 Marks]
+
+a) Preprocess the data appropriately
+b) Apply the Genetic Algorithm for clustering
+c) Visualize clustering results
+d) Analyze and compare clustering performance
+
+
+---
+
+
+Final Report Requirements: [10 Marks]
+
+Students are required to prepare a comprehensive project report in Microsoft Word format (.docx). The report must include:
+
+a) A brief introduction to data clustering and Genetic Algorithms
+b) Description of the implemented methodology
+c) Screenshots of the Python code
+d) Screenshots of output results and visualizations
+e) Discussion and analysis of the obtained clustering results
+
+
+
+---
+
+Bonus: [10 Marks]
+
+You are required to develop a GUI for this project to provide the user interface for loading dataset, to run the program, to show the visualization in specific display window.
+
+
+---
+
+The submitted report should be well-structured, clearly written, and properly formatted, demonstrating both conceptual understanding and practical implementation skills in Data Mining.
