@@ -26,8 +26,10 @@ The objective is to minimize within-cluster sum of squares (WCSS) while finding 
 ## Usage
 
 ```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py
+# Install dependencies:
+   uv sync
+# Run the application:
+   uv run streamlit run streamlit_app.py
 ```
 
 Then open the URL shown by Streamlit in your browser.
